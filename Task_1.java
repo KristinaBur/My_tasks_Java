@@ -13,12 +13,18 @@
 // }
 // }
 
+/**
+ * Task_1
+ */
+public class Task_1 {
 
-public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int h = scanner.nextInt();
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         int res = h/(a-b);
         System.out.println(res);
+        
     }
+}
